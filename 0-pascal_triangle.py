@@ -16,5 +16,8 @@ def pascal_triangle(n):
             triangle.append(new_row)
 
             return triangle
-
+        #usage
+        if __name__ == "__main__":
+            triangle = pascal_triangle(5)
+            print_triangle(triangle)
 
